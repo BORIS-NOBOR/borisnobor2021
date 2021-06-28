@@ -1,0 +1,315 @@
+*, body, html
+{
+margin: 0;
+padding: 0;
+}
+.Union
+{
+    border: black 8px;
+    display: flex;
+    border-style:double;
+    justify-content: space-between;
+    background:rgb(3, 37, 72);
+}  
+
+
+.container1
+{
+    flex-basis: 50%;
+    background-color: #0df719;
+    opacity: .6;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-right: rgb(255, 136, 0) solid 12px;
+	padding-top: 30px;
+    align-items: center;
+}
+
+
+.container2
+{
+    flex-basis: 40%;
+    background-image: url(./images/web\ 3.jpg);
+    opacity: 10;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(30, 255, 0);
+    padding-left: 80px;
+	padding-top: 30px;
+    border: rgb(21, 255, 0);
+}
+
+
+.Boris3
+{
+    color: rgb(11, 197, 221);
+    font-weight:bolder;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: none;
+    font-style: italic;
+    opacity: 0.9;
+}
+
+.Boris3h4
+{
+color: maroon;
+font-size: 30px;
+font-weight: 800;
+
+}
+
+.set4
+{
+    color: darkorange;
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+}
+.span1
+{
+    color: orangered;
+    font-weight: 900;
+    
+}
+
+.span2
+{
+    color: white;
+}
+
+#logo
+{
+    width: 300px;
+    height: 250px;
+    border-radius: 200%;
+    align-items: center;
+   
+}
+
+#logo2
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 200%;
+   margin-top: 10px;
+}
+
+
+#check_password_btn
+{
+	width: 40%;
+	height: 40px;
+	color:darkcyan ;
+	border-radius: 5px;
+	border-color: dodgerblue;
+	margin-left: 150px;
+	font-weight: bolder;
+    font-size: 15px;
+    font-weight: 900;
+    text-align: center;
+}
+
+
+#Login_btn{
+	width: 90px;
+	height: 40px;
+	color: black ;
+	border-radius: 20px;
+	border-color:  dodgerblue ;
+	font-weight: 900;
+    font-size: 20px;
+    margin-left: 200px;
+    background-color: orangered;
+}
+
+#SignUp_btn{
+	background-color:orangered;
+    border-color: dodgerblue;
+	width: 55%;
+	height: 40px;
+	color: black;
+	border-radius: 50px;
+	font-weight: 900;
+    font-size: 20px;
+    margin-left: 90px;
+}
+
+
+
+.input2
+{
+	width: 70%;
+	height: 35px;
+	border: dodgerblue solid 3px;
+    font-size: 20px;
+	font-weight:800;
+	color: black;
+    padding-bottom: 7px;
+	text-align: center;
+    padding-top: 10px;
+    justify-content: center;
+    margin-left: 60px;
+}
+
+.footer-body
+{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    background: #470604;
+    padding: 0px;
+    justify-content: center;
+} 
+
+
+.footer-body ul
+{
+    align-items: center;
+    text-align: center;
+    font-weight: 700;
+    
+}
+
+.Contacts 
+{
+    color: white;
+    font-weight: bolder;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    text-align: left;
+}
+
+.Contacts2 
+{
+    font-size: 7px;
+    color: white;
+    background: rgba(72, 35, 6, 0);
+    font-weight: 700;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    align-items: center;
+}
+
+.footer-Last
+{
+    width: 100%;
+    height: 40px;
+    background: black;
+    color: rgb(0, 110, 255);
+    padding-top:5px ;
+    text-align: center;
+    border-bottom: 2px;
+}
+  
+
+
+
+.links
+{
+    margin-top: 0;
+    padding-top: 0;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    background-color: maroon;
+    border-top: black solid 2px;
+    border-bottom: orangered solid 2px;
+}
+
+.links li
+{
+    padding: 6px;
+
+
+}
+.links  li a
+{
+    color: orange;
+    text-decoration: none;
+    padding-top: 10px;
+    font-size: 20px;
+    padding: 0;
+    margin-top: 0;
+    font-weight: 800;
+    align-items: center;
+
+}
+
+.links a:hover
+{
+    background: black;
+    color: orange;
+    font-size: 20px;
+    transition:  all 0.5s ease-in;
+    
+}
+
+.fa-phone
+{
+    color: #2899eb;
+    width: 30px;
+    height: 20px;
+}
+.fa-whatsapp-square
+{
+    color: seagreen;
+    width: 30px;
+    height: 20px;
+}
+
+.fa-envelope-square,
+.fa-globe,
+{
+    color: #eeeee4;
+    width: 30px;
+    height: 20px;
+}
+
+
+
+.fa-frown
+{
+    color:#f7c00d ;
+    width: 50px;
+    height: 50px;
+}
+
+.follow_us p
+{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    color: darkorange;
+}
+
+
+.fa-facebook-f,
+.fa-twitter
+{
+    color: rgb(6, 53, 99);
+    background: white;
+    width: 20px;
+    height: 20px;
+}
+
+.fa-instagram-square
+{
+    color: blueviolet;
+    background: white;
+    width: 20px;
+    height: 20px;
+}
+
+.fa-youtube-square
+{
+    color: rgb(82, 5, 8);
+    background: white;
+    width: 20px;
+    height: 20px;
+}
